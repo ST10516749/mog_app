@@ -2,6 +2,8 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
 
+    
+
     logo: {
         width: 350,
         height: 350,
@@ -22,7 +24,6 @@ const styles = StyleSheet.create({
         color: 'orange',
         fontSize: 30,
         textAlign: 'center'
-
     },
 
     inputFlex: {
@@ -97,22 +98,64 @@ const styles = StyleSheet.create({
     },
 
 
-    bookingPage: {
+    /* =========================
+       BOOKING PAGE
+       ========================= */
 
+    bookingPage: {
+        flex: 1,
+        backgroundColor: 'white',
     },
 
     bookingHeader: {
-
+        backgroundColor: 'orange',
+        borderBottomWidth: 3,
+        borderBottomColor: '#e67e22',
+        paddingVertical: 10,
+        paddingHorizontal: 20,
     },
 
     bookingHeaderText: {
-        
+        color: 'white',
+        fontSize: 28,
+        fontWeight: 'bold',
     },
 
+    bookingSection: {
+        alignItems: 'center',
+        paddingHorizontal: 20,
+        paddingVertical: 25,
+        borderBottomWidth: 1,
+        borderBottomColor: '#dddddd',
+    },
 
+    bookingImage: {
+        width: '100%',
+        height: 180,
+        marginBottom: 15,
+    },
 
+    bookingStepTitle: {
+        fontSize: 22,
+        fontWeight: 'bold',
+        color: 'black',
+        textAlign: 'center',
+        marginBottom: 8,
+    },
 
+    bookingStepText: {
+        fontSize: 15,
+        color: 'black',
+        textAlign: 'center',
+        lineHeight: 21,
+        paddingHorizontal: 10,
+    },
 
-})
+    bookingSafeArea: {
+        flex: 1,
+        backgroundColor: '#ffffff',
+    },    
+
+});
 
 export default styles;
