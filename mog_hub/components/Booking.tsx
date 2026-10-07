@@ -15,7 +15,7 @@ export default function Booking() {
         /* Step 1 */
         <View style={styles.bookingSection}>
           <Image
-            source={require('._images/booking1.png')}
+            source={require('../_images/num_one.jpeg')}
             style={styles.bookingImage}
             resizeMode="contain"
           />
@@ -33,7 +33,7 @@ export default function Booking() {
         /* Step 2 */
         <View style={styles.bookingSection}>
           <Image
-            source={require('../assets/booking2.png')}
+            source={require('../_images/num_two.jpeg')}
             style={styles.bookingImage}
             resizeMode="contain"
           />
@@ -51,7 +51,7 @@ export default function Booking() {
         /* Step 3 */
         <View style={styles.bookingSection}>
           <Image
-            source={require('../assets/booking3.png')}
+            source={require('../_images/num_three.jpeg')}
             style={styles.bookingImage}
             resizeMode="contain"
           />
