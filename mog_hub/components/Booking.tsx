@@ -15,7 +15,7 @@ export default function Booking() {
         /* Step 1 */
         <View style={styles.bookingSection}>
           <Image
-            source={require('../assets/booking1.png')}
+            source={require('._images/booking1.png')}
             style={styles.bookingImage}
             resizeMode="contain"
           />
